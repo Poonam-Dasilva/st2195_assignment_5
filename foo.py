@@ -10,7 +10,7 @@ def is_divisible_by_k(x, k):
    '''
    x = ()
 for i in range(1000):
-    if (is_divisible_by_k(x, 2) & is_divisible_by_k(x, 3)) & is_divisible_by_k(x, 7):
+    if (is_divisible_by_k(i, 2) and is_divisible_by_k(i, 3) and is_divisible_by_k(i, 7)):
        x.append(i)
    '''
    Sum all the integers that are multiples of 2 or 5 or 7 that are lower
